@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(to bottom, lightgreen, lightblue, white);
+}
+
+.box {
+  background: linear-gradient(to bottom, lightgreen, lightblue, white);
+  display: flex;
+  justify-content: center;
+  margin: auto auto;
+}
+
+.image {
+  background-color: #fff;
+  height: 100px;
+  margin: 20px 20px;
+  border-radius: 50%;
+  border: 2px gray solid;
+}
+
+.data {
+  font-size: small;
+  margin-left: 20px;
+}
+
+.data p {
+  display: flex;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  height: 25px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 2px 1px black;
+}
+
+.sign {
+  margin-left: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  color: gray;
+  font-weight: bolder;
+}
